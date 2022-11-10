@@ -13,7 +13,7 @@ class AppLoggerTest extends TestCase
 
     public function testInfoLog()
     {
-        $logger = new AppLogger('log4php');
+        $logger = new AppLogger('think-log');//log4php
         $logger->info('This is info log message');
     }
 }
